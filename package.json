@@ -1,0 +1,26 @@
+{
+  "name": "cupcake-bot",
+  "version": "0.0.1",
+  "description": "A bot for cake",
+  "main": "bot.js",
+  "scripts": {
+    "start": "NODE_ENV='development' node bot.js",
+    "start-w": "NODE_ENV='development' nodemon bot.js -e html,js,scss --ignore public"
+  },
+  "dependencies": {
+    "@slack/events-api": "^2.1.1",
+    "botkit": "^0.6.19",
+    "cookie-parser": "^1.4.3",
+    "debug": "^2.3.3",
+    "express": "^4.14.0",
+    "express-hbs": "^1.0.4",
+    "morgan": "^1.9.1",
+    "node-env-file": "^0.1.8",
+    "querystring": "^0.2.0",
+    "request": "^2.79.0",
+    "wordfilter": "^0.2.6"
+  },
+  "devDependencies": {},
+  "author": "danni.liu@datadoghq.com",
+  "license": "MIT"
+}
